@@ -16,7 +16,10 @@
     <link rel="canonical" href="https://prince-portfolio-v2s.vercel.app/" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://prince-portfolio-v2s.vercel.app/" />
+    <meta
+      property="og:url"
+      content="https://prince-portfolio-v2s.vercel.app/"
+    />
     <meta property="og:title" content="PRINCE | Frontend Brutalist" />
     <meta property="og:description" content="Professional Frontend Developer" />
     <meta
@@ -44,7 +47,7 @@
     <meta name="theme-color" content="#121212" />
     <link
       rel="preload"
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Space+Grotesk:wght@800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Space+Grotesk:wght@300;400;500;600;700;800&display=swap"
       as="style"
     />
 
@@ -116,11 +119,43 @@
         },
       };
     </script>
+    <noscript>
+      <style>
+        #preloader {
+          display: none !important;
+        }
+        html.is-loading {
+          overflow: auto !important;
+        }
+      </style>
+    </noscript>
   </head>
 
   <body
     class="text-neo-black font-display antialiased selection:bg-neo-black selection:text-neo-yellow"
   >
+    <div id="preloader" class="preloader" role="status" aria-live="polite">
+      <span class="sr-only">Loading portfolio, please wait&hellip;</span>
+
+      <div class="cyber-core-container">
+        <div class="orbit-ring"></div>
+        <div class="orbit-ring-2"></div>
+        <div class="orbit-ring-3"></div>
+        <div class="pulse-core">DEV</div>
+      </div>
+
+      <div class="preloader-percent" id="preloaderPercent">00%</div>
+
+      <div class="preloader-bar-track">
+        <div class="preloader-bar-fill" id="preloaderBar"></div>
+      </div>
+
+      <div class="cyber-terminal-box">
+        <span>></span> <span id="cyberText">BOOTING CORE ENGINE...</span
+        ><span class="terminal-cursor"></span>
+      </div>
+    </div>
+
     <div
       id="cursor"
       class="w-6 h-6 bg-neo-yellow/70 rounded-full border-2 border-black hidden lg:block"
@@ -134,7 +169,7 @@
 
     <nav class="fixed top-0 w-full z-50 px-4 py-4 pointer-events-none">
       <div
-        class="max-w-7xl mx-auto flex justify-between items-center pointer-events-auto"
+        class="max-w-7xl mx-auto flex justify-between items-center pointer-events-auto hero-reveal-top"
       >
         <a
           href="https://www.webkaizen.in"
@@ -192,7 +227,7 @@
 
       <div class="relative z-10 text-center max-w-5xl">
         <div
-          class="inline-block bg-neo-white border-2 border-black px-4 py-1 mb-6 shadow-hard rotate-[-2deg] reveal"
+          class="inline-block bg-neo-white border-2 border-black px-4 py-1 mb-6 shadow-hard rotate-[-2deg] hero-reveal"
         >
           <span class="font-mono font-bold text-neo-green bg-black px-2 mr-2"
             >●</span
@@ -201,7 +236,7 @@
         </div>
 
         <h1
-          class="text-[13vw] md:text-[10vw] leading-[0.8] font-black uppercase tracking-tighter mb-6 reveal mix-blend-darken"
+          class="text-[13vw] md:text-[10vw] leading-[0.8] font-black uppercase tracking-tighter mb-6 hero-reveal mix-blend-darken"
         >
           FRONTEND<br />
           <span
@@ -212,13 +247,13 @@
         </h1>
 
         <p
-          class="font-mono text-lg md:text-2xl max-w-2xl mx-auto mb-10 bg-neo-yellow border-2 border-black p-4 shadow-hard reveal rotate-1"
+          class="font-mono text-lg md:text-2xl max-w-2xl mx-auto mb-10 bg-neo-yellow border-2 border-black p-4 shadow-hard hero-reveal rotate-1"
         >
           I build digital products that refuse to be boring. <br />
           <b>React • Python • JavaScript • Nextjs</b>
         </p>
 
-        <div class="flex flex-col md:flex-row justify-center gap-6 reveal">
+        <div class="flex flex-col md:flex-row justify-center gap-6 hero-reveal">
           <a
             href="#projects"
             class="bg-black text-white border-2 border-black px-10 py-5 text-xl font-bold shadow-hard hover:bg-neo-green hover:text-black hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-hover"
@@ -240,7 +275,7 @@
       <div class="marquee-container font-mono font-bold text-2xl text-white">
         <div class="marquee-content">
           /// OPEN FOR WORK /// FRONTEND DEVELOPMENT /// CUSTOM BIRTHDAY
-          WEBSITES /// WEDDING WEBSITES /// & EVERY OCCASSION /// FAST ///
+          WEBSITES /// WEDDING WEBSITES /// &amp; EVERY OCCASSION /// FAST ///
           SECURE /// OPEN FOR WORK /// FRONTEND DEVELOPMENT ///
         </div>
       </div>
@@ -258,6 +293,8 @@
             <img
               src="Assets/images/main.png"
               alt="Prince"
+              loading="lazy"
+              decoding="async"
               class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
             />
             <span
@@ -279,7 +316,7 @@
             class="font-mono text-lg mb-8 text-gray-600 border-l-4 border-neo-purple pl-4"
           >
             > Specialized in Frontend Development.<br />
-            > Passionate about Ethical Hacking & Cybersecurity.<br />
+            > Passionate about Ethical Hacking &amp; Cybersecurity.<br />
             > Building Fast, Modern Web Experiences.
           </p>
 
@@ -287,12 +324,12 @@
             <div
               class="bg-neo-black text-white px-4 py-2 font-mono text-sm border-2 border-transparent"
             >
-              📍 LOCATION: WORLDWIDE
+              ⾕ LOCATION: WORLDWIDE
             </div>
             <div
               class="bg-neo-green text-black px-4 py-2 font-mono text-sm border-2 border-black"
             >
-              🟢 STATUS: AVAILABLE
+              𓏲ּ𝄢 STATUS: AVAILABLE
             </div>
           </div>
         </div>
@@ -601,7 +638,7 @@
               class="flex flex-col md:flex-row justify-between items-start md:items-center border-b-2 border-dashed border-gray-300 pb-4 mb-4"
             >
               <h3 class="text-3xl font-black uppercase">
-                Founder & Web Developer
+                Founder &amp; Web Developer
               </h3>
 
               <span
@@ -732,7 +769,7 @@
                 <div
                   class="w-full text-left text-xs font-mono text-[#33FF57] uppercase mb-4 border-b border-white/10 pb-2 flex justify-between items-center"
                 >
-                  <span>🏆 GitHub Trophies & Achievements</span>
+                  <span>🏆 GitHub Trophies &amp; Achievements</span>
                   <span class="text-green-400 font-bold">ACTIVE</span>
                 </div>
                 <div class="w-full flex justify-center overflow-x-auto py-2">
@@ -743,6 +780,7 @@
                   >
                     <img
                       data-src="https://github-profile-trophy.vercel.app/?username=princekumar-dev74&theme=radical&no-bg=true&margin-w=5&margin-h=5&column=3"
+                      data-fallback="trophy-fallback"
                       alt="GitHub Trophies"
                       class="lazy-img mx-auto h-auto max-h-[150px] filter brightness-110"
                       src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3C/svg%3E"
@@ -785,8 +823,9 @@
                       class="lazy-img w-full h-auto object-contain"
                       src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3C/svg%3E"
                       onerror="
+                        this.onerror = null;
                         this.src =
-                          'https://github-readme-stats.vercel.app/api?username=princekumar-dev74&show_icons=true&theme=dark&hide_border=true'
+                          'https://github-readme-stats.vercel.app/api?username=princekumar-dev74&show_icons=true&theme=dark&hide_border=true';
                       "
                     />
                   </a>
@@ -798,7 +837,7 @@
                   <div
                     class="w-full text-left text-xs font-mono text-[#33FF57] uppercase mb-3 border-b border-white/10 pb-2"
                   >
-                    // Streak & Consistency
+                    // Streak &amp; Consistency
                   </div>
                   <a
                     href="https://github.com/princekumar-dev74"
@@ -807,10 +846,25 @@
                   >
                     <img
                       data-src="https://github-readme-streak-stats.herokuapp.com/?user=princekumar-dev74&theme=radical&hide_border=true&background=0a0a0a"
+                      data-fallback="streak-fallback"
                       alt="Prince's GitHub Streak"
                       class="lazy-img w-full h-auto object-contain"
                       src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3C/svg%3E"
+                      onerror="
+                        this.style.display = 'none';
+                        document.getElementById(
+                          'streak-fallback',
+                        ).style.display = 'block';
+                      "
                     />
+                    <div
+                      id="streak-fallback"
+                      style="display: none"
+                      class="py-4 text-sm font-mono text-gray-400 text-center"
+                    >
+                      Streak stats viewable directly on
+                      <span class="text-[#33FF57]">GitHub Profile</span>
+                    </div>
                   </a>
                 </div>
               </div>
@@ -830,10 +884,25 @@
                   <div class="w-full flex justify-center py-2">
                     <img
                       data-src="https://ghchart.rshah.org/33FF57/princekumar-dev74"
+                      data-fallback="chart-fallback"
                       alt="GitHub Contribution Graph"
                       class="lazy-img w-full h-auto filter brightness-110 min-w-[650px]"
                       src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3C/svg%3E"
+                      onerror="
+                        this.style.display = 'none';
+                        document.getElementById(
+                          'chart-fallback',
+                        ).style.display = 'block';
+                      "
                     />
+                    <div
+                      id="chart-fallback"
+                      style="display: none"
+                      class="py-4 text-sm font-mono text-gray-400 text-center w-full"
+                    >
+                      Contribution graph viewable directly on
+                      <span class="text-[#33FF57]">GitHub Profile</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -881,6 +950,8 @@
               <img
                 src="Assets/images/portfolio-v2.png"
                 alt="portfolio-v2"
+                loading="lazy"
+                decoding="async"
                 class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
               />
             </div>
@@ -909,6 +980,7 @@
               </div>
               <a
                 href="https://github.com/princekumar-dev74/portfolio-v2.git"
+                aria-label="View Portfolio-v2 repository on GitHub"
                 class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
               >
                 <i class="ri-arrow-right-up-line text-2xl"></i>
@@ -925,6 +997,8 @@
               <img
                 src="Assets/images/portfolio-v1.png"
                 alt="portfolio-v1"
+                loading="lazy"
+                decoding="async"
                 class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
               />
             </div>
@@ -947,6 +1021,7 @@
               </div>
               <a
                 href="https://github.com/princekumar-dev74/portfolio-v1.git"
+                aria-label="View Portfolio-v1 repository on GitHub"
                 class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
               >
                 <i class="ri-arrow-right-up-line text-2xl"></i>
@@ -963,6 +1038,8 @@
               <img
                 src="Assets/images/webkaizen.png"
                 alt="brand0-webkaizen"
+                loading="lazy"
+                decoding="async"
                 class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
               />
             </div>
@@ -992,6 +1069,7 @@
               </div>
               <a
                 href="https://www.webkaizen.in"
+                aria-label="Visit WebKaizen website"
                 class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
               >
                 <i class="ri-arrow-right-up-line text-2xl"></i>
@@ -1008,6 +1086,8 @@
               <img
                 src="Assets/images/onepiece.png"
                 alt="onepiece"
+                loading="lazy"
+                decoding="async"
                 class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity"
               />
             </div>
@@ -1032,6 +1112,7 @@
               </div>
               <a
                 href="https://github.com/princekumar-dev74/One-Piece.git"
+                aria-label="View One-Piece repository on GitHub"
                 class="w-12 h-12 border-2 border-black bg-neo-green flex items-center justify-center hover:bg-black hover:text-white transition-all cursor-hover shadow-hard-sm"
               >
                 <i class="ri-arrow-right-up-line text-2xl"></i>
@@ -1201,21 +1282,25 @@
           <div class="flex gap-4">
             <a
               href="https://www.instagram.com/webkaizen"
+              aria-label="Instagram"
               class="text-2xl hover:text-neo-pink transition-colors cursor-hover"
               ><i class="ri-instagram-fill"></i
             ></a>
             <a
               href="https://github.com/princekumar-dev74"
+              aria-label="GitHub"
               class="text-2xl hover:text-neo-yellow transition-colors cursor-hover"
               ><i class="ri-github-fill"></i
             ></a>
             <a
               href="https://www.linkedin.com/in/princesingh74/"
+              aria-label="LinkedIn"
               class="text-2xl hover:text-neo-purple transition-colors cursor-hover"
               ><i class="ri-linkedin-fill"></i
             ></a>
             <a
               href="https://www.youtube.com/@WebKaizenDev"
+              aria-label="YouTube"
               class="text-2xl hover:text-neo-purple transition-colors cursor-hover"
               ><i class="ri-youtube-fill"></i
             ></a>
