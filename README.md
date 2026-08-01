@@ -11,12 +11,13 @@
 >> SYSTEM_STATUS: ONLINE
 >> VERSION: PORTFOLIO-V2
 
+```
+
 <p align="center">
     <img src="https://img.shields.io/github/stars/princekumar-dev74/webkaizen-animation">
     <img src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
-```
 -----------------------
 
 ## /// MANIFESTO
