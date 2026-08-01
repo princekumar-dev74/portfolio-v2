@@ -1,4 +1,8 @@
-# PRINCE | PORTFOLIO_V2
+# PRINCEKUMAR-DEV74 | PORTFOLIO_V2
+
+<p align="center">
+  <img src="Assets/images/portfolio-v2.png" alt="Project Demo" style="width: 100%;">
+</p>
 
 ```
 ██████╗  ██████╗ ██████╗ ████████╗███████╗ ██████╗ ██╗    ██╗ ██████╗
@@ -12,93 +16,84 @@
 >> VERSION: PORTFOLIO-V2
 
 ```
-<p align="center">
-  <img src="Assets/images/portfolio-v2.png" alt="Project Demo" style="width: 100%;">
-</p>
 
 <p align="center">
     <img src="https://img.shields.io/github/stars/princekumar-dev74/portfolio-v2">
     <img src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
------------------------
-
-## /// MANIFESTO
-
-**Design is dying.** The web has become a sea of identical, sanitized templates. We are here to break the grid.
-This portfolio embraces **Neo-Brutalism**:
-- High Contrast
-- Raw Typography
-- Asymmetrical Layouts
-- "Ugly" on Purpose
-
-It's not about being pretty. It's about being **BOLD**.
+> **WARNING**: This project is intended solely for personal use. Commercial use, reproduction, or redistribution is not permitted.
 
 ---
 
-## /// TECH_STACK
+
+## ╰┈➤ TECH_STACK
 
 | COMPONENT | TECHNOLOGY | STATUS |
 | :--- | :--- | :--- |
 | **CORE** | `HTML5` | [OPTIMIZED] |
 | **STYLING** | `TailwindCSS` | [LOADED] |
 | **SCRIPTING** | `Vanilla JS` | [ACTIVE] |
-| **APIs** | `GitHub API` + `LeetCard` | [STREAMING] |
+| **APIs** | `GitHub API` | [STREAMING] |
 | **ICONS** | `Remix Icons` | [LINKED] |
 | **FONTS** | `Space Grotesk` + `JetBrains Mono` | [IMPORTED] |
 
 ---
 
-## /// FEATURES_LOG
+## ╰┈➤ FEATURES_LOG
 
-### 01. CUSTOM_CURSOR
+### 01. RETRO_PORTFOLIO
+> A retro-inspired frontend portfolio featuring responsive design, smooth animations, interactive UI, and clean navigation.
+
+### 02. PURE_HTML_CSS_JS
+> Built entirely with HTML, CSS, and JavaScript for a fast, lightweight, and framework-free experience.
+
+### 03. CUSTOM_CURSOR & CUSTOM SCROLLER
 > A custom-built cursor that reacts to interactive elements.
-> - **Normal State**: Small crosshair/dot.
+> - **Normal State**: Small Transparent crosshair/dot.
 > - **Hover State**: Expands to a Neo-Yellow block with black borders.
-
-### 02. GLITCH_EFFECTS
-> CSS-only glitch animations on hover states.
-> - `mix-blend-mode: difference` for high contrast.
-> - Random translation keyframes for that "broken" feel.
-
-### 03. MARQUEE_SCROLL
-> Infinite scrolling text banners.
-> - Pure CSS animation.
-> - **Direction**: Left-to-Right & Right-to-Left.
-
-### 04. REVEAL_ANIMATION
-> Elements reveal themselves as you scroll.
-> - `IntersectionObserver` API.
-> - Smooth translate-Y transitions.
-
-### 05. CODING_STATS_INTEGRATION
-> Real-time data visualization of development activity.
-> - **Dual-Profile Interface**: Side-by-side GitHub and LeetCode stats.
-> - **Live GitHub API**: Dynamic fetching of Repos, Followers, and Commits.
-> - **LeetCard Integration**: Real-time LeetCode problem-solving heatmap.
-> - **Parallel Layout**: Perfectly balanced columns with mirrored headers and activity matrices.
 
 ---
 
-## /// FILE_STRUCTURE
+## ╰┈➤ FILE_STRUCTURE
 
 ```bash
 .
 ├── Assets/
-│   ├── images/          # [DIR] Project thumbnails & Avatar
-│   └── Resume/          # [DIR] CV PDF file
-├── index.html           # [FILE] Main Entry Point
-└── README.md            # [FILE] You are here
+│   ├── images/
+│   ├── Resume/    
+│   ├── app.js    
+│   └── app.css 
+├── index.html          
+└── README.md            
 ```
 
-## /// CONTACT_COORDINATES
+---
 
-**TRANSMISSION OPEN:**
-- **MAIL**: `topiwalaarham@gmail.com`
-- **GITHUB**: `Arham43-ops`
-- **LOCATION**: `Remote / Earth`
+## ╰┈➤ CONNECT
 
-> "I build digital products that refuse to be boring."
+<p align="center">
+  <a href="https://webkaizen.in">
+    <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  </a>
+  <a href="https://github.com/princekumar-dev74">
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.youtube.com/@YOUR_CHANNEL">
+    <img src="https://img.shields.io/badge/YouTube-000000?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/webkaizen">
+    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</p>
 
 ---
-**© 2025 ARHAM.exe // SYSTEM_END**
+
+## ╰┈➤ CONTACT
+
+**TRANSMISSION OPEN:**
+- **MAIL**: `sprince05873@gmail.com`
+- **GITHUB**: `princekumar-dev74`
+
+---
+**© 2026 PRINCE**
