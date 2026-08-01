@@ -1,4 +1,4 @@
-# PRINCE // PORTFOLIO_V2
+# PRINCE | PORTFOLIO_V2
 
 ```
 ██████╗  ██████╗ ██████╗ ████████╗███████╗ ██████╗ ██╗    ██╗ ██████╗
@@ -12,9 +12,12 @@
 >> VERSION: PORTFOLIO-V2
 
 ```
+<p align="center">
+  <img src="Assets/images/portfolio-v2.png" alt="Project Demo" style="width: 100%;">
+</p>
 
 <p align="center">
-    <img src="https://img.shields.io/github/stars/princekumar-dev74/webkaizen-animation">
+    <img src="https://img.shields.io/github/stars/princekumar-dev74/portfolio-v2">
     <img src="https://img.shields.io/badge/License-MIT-green">
 </p>
 
