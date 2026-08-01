@@ -1,7 +1,9 @@
 # PRINCEKUMAR-DEV74 | PORTFOLIO_V2
 
 <p align="center">
-  <img src="Assets/images/portfolio-v2.png" alt="Project Demo" style="width: 100%;">
+  <a href="https://prince-portfolio-v2s.vercel.app/" target="_blank">
+    <img src="Assets/images/portfolio-v2.png" alt="Project Demo" width="100%">
+  </a>
 </p>
 
 ```
